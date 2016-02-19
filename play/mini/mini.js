@@ -358,7 +358,7 @@ window.requestAnimFrame = window.requestAnimationFrame ||
 	}
 })();
 
-Window.IS_IN_SIGHT = true;
+window.IS_IN_SIGHT = false;
 
 window.onload=function(){
 	reset();

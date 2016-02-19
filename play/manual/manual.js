@@ -302,4 +302,4 @@ window.requestAnimFrame = window.requestAnimationFrame ||
 		render();
 	}
 })();
-Window.IS_IN_SIGHT = true;
+window.IS_IN_SIGHT = false;
